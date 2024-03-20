@@ -1,3 +1,21 @@
+macro_nvim: macro_nvim{
+compatible = "zmk,behavior-macro";
+label = "macro_nvim";
+#binding-cells = <0>;
+bindings = <&kp LG(R)>, <&kp N>, <&kp V>, <&kp I>, <&kp M>, <&kp ENTER>;
+};
+macro_win_term_admin: macro_win_term_admin{
+compatible = "zmk,behavior-macro";
+label = "macro_win_term_admin";
+#binding-cells = <0>;
+bindings = <&kp LG(R)>, <&kp W>, <&kp T>, <&kp LC(LS(ENTER))>;
+};
+macro_win_term: macro_win_term{
+compatible = "zmk,behavior-macro";
+label = "macro_win_term";
+#binding-cells = <0>;
+bindings = <&kp LG(R)>, <&kp W>, <&kp T>, <&kp ENTER>;
+};
 macro_delete_line: macro_delete_line{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_line";
